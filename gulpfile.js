@@ -34,6 +34,7 @@ gulp.task('inject-templates', ['create-templates'], function() {
 });
 
 //Minify, concatenate and version CSS and JS
+// JS change
 //Use ngAnnotate to take care of Angular inject issues
 gulp.task('usemin', ['inject-templates'], function() {
     return gulp.src('./src/index.html')
